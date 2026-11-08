@@ -1,0 +1,14 @@
+{
+  "name": "jobsphere-job-board",
+  "version": "1.0.0",
+  "description": "Full-stack Job Board platform built with React, Node.js, and Document/PostgreSQL database",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": ["react", "nodejs", "express", "mongodb", "postgresql", "job-board"],
+  "author": "JobSphere Team",
+  "license": "MIT"
+}
